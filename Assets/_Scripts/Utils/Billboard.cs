@@ -5,7 +5,7 @@ public class Billboard : MonoBehaviour
     [SerializeField] private bool isEnabled = true;
     [SerializeField] private Transform cam;
 
-    private void Awake()
+    private void OnEnable()
     {
         if (cam != null) return;
         if (Camera.main == null) return;
@@ -16,7 +16,12 @@ public class Billboard : MonoBehaviour
     {
         if (!isEnabled) return;
         if(cam == null) Debug.LogWarning("Camera transform not assigned!!");
-        transform.LookAt(cam);
-        transform.Rotate(0, 180, 0);
+        else
+        {
+            Vector3 directionToCamera = cam.position - transform.position;
+            directionToCamera.y = 0;
+            Quaternion targetRotation = Quaternion.LookRotation(directionToCamera);
+            transform.rotation = Quaternion.Euler(0, targetRotation.eulerAngles.y + 90, 0);
+        }
     }
 }
