@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
+using UnityEngine.XR.Interaction.Toolkit.Samples.ARStarterAssets;
 using EnhancedTouch = UnityEngine.InputSystem.EnhancedTouch;
 
 [RequireComponent(typeof(ARRaycastManager)), RequireComponent(typeof(ARPlaneManager))]
@@ -42,6 +43,7 @@ public class PlaceCoco : MonoBehaviour
             coco.transform.GetChild(0).gameObject.SetActive(true);
             coco.transform.position = pose.position;
             placedCoco = true;
+            arPlaneManager.SetTrackablesActive(false);
         }
     }
 }
