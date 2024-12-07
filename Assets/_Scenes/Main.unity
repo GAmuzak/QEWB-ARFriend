@@ -148,7 +148,7 @@ Transform:
   m_GameObject: {fileID: 312881209}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.88, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -360,6 +360,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   planeManager: {fileID: 312881212}
   heightOffset: 0.01
+--- !u!114 &859356823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859356819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 263c2178b319461bab16a68bf8c9c774, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minScale: 0.98
+  maxScale: 1.02
+  timeForOneLoop: 3
+  animType: 10
 --- !u!1 &994093701
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,6 +713,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 859356822}
+    - targetCorrespondingSourceObject: {fileID: 6761374376246222901, guid: d82e52066e11e2b469f12e19c74a83c5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 859356823}
   m_SourcePrefab: {fileID: 100100000, guid: d82e52066e11e2b469f12e19c74a83c5, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

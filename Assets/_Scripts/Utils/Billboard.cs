@@ -22,6 +22,12 @@ public class Billboard : MonoBehaviour
             directionToCamera.y = 0;
             Quaternion targetRotation = Quaternion.LookRotation(directionToCamera);
             transform.rotation = Quaternion.Euler(0, targetRotation.eulerAngles.y + 90, 0);
+            float heightDifference = cam.position.y - transform.position.y;
+            float zRotation = Mathf.Atan2(heightDifference, directionToCamera.magnitude) * Mathf.Rad2Deg;
+
+            float clampedZRotation = Mathf.Clamp(zRotation, -20, 20);
+
+            transform.localRotation = Quaternion.Euler(transform.localRotation.eulerAngles.x, transform.localRotation.eulerAngles.y, -clampedZRotation);
         }
     }
 }

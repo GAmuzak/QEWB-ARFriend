@@ -10,14 +10,12 @@ namespace _Scripts.Main
 
         private void OnEnable()
         {
-            if (planeManager != null)
-                planeManager.planesChanged += OnPlanesChanged;
+            if (planeManager != null) planeManager.planesChanged += OnPlanesChanged;
         }
 
         private void OnDisable()
         {
-            if (planeManager != null)
-                planeManager.planesChanged -= OnPlanesChanged;
+            if (planeManager != null) planeManager.planesChanged -= OnPlanesChanged;
         }
 
         private void OnPlanesChanged(ARPlanesChangedEventArgs args)

@@ -1,9 +1,7 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
-using UnityEngine.XR.Interaction.Toolkit.Samples.ARStarterAssets;
 using EnhancedTouch = UnityEngine.InputSystem.EnhancedTouch;
 
 [RequireComponent(typeof(ARRaycastManager)), RequireComponent(typeof(ARPlaneManager))]
@@ -14,7 +12,7 @@ public class PlaceCoco : MonoBehaviour
     private ARRaycastManager arRaycastManager;
     private ARPlaneManager arPlaneManager;
     private List<ARRaycastHit> hits = new List<ARRaycastHit>();
-    private bool placedCoco = false;
+    private bool placedCoco;
 
     private void Awake()
     {

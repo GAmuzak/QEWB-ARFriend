@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c97aaac-6114-4a01-9788-7e86847ee970" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Main/BreatheTween.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Main/BreatheTween.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.QEWB-ARFriend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.QEWB-ARFriend/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.utmp/Debug/4j6s1q73/arm64-v8a/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/Debug/4j6s1q73/arm64-v8a/configure_fingerprint.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Main/PlaceCoco.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Main/PlaceCoco.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Main/StayAboveGround.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Main/StayAboveGround.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Utils/Billboard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Utils/Billboard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +109,7 @@
       <updated>1733451302934</updated>
       <workItem from="1733451304252" duration="12000" />
       <workItem from="1733587500283" duration="1313000" />
-      <workItem from="1733589304816" duration="3106000" />
+      <workItem from="1733589304816" duration="4697000" />
     </task>
     <servers />
   </component>
